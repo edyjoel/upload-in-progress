@@ -37,6 +37,12 @@
         </section>
     </div>
 
+    <nav>
+        <router-link to="/">Inicio</router-link>
+        <router-link to="/about">Acerca de</router-link>
+    </nav>
+    <router-view />
+
 </template>
 
 <script>
